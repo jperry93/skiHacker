@@ -12,14 +12,15 @@
   <main>
     <h1>skiHacker</h1>
     <form>
-        <label for="currentLocation">CURRENT LOCATION</label><br>
-        <input type="text" id="currentLocation" name="currentLocation"><br><br>
-        <label for="budget">BUDGET</label><br>
-        <input type="number" id="budget" name="budget"><br><br><br>
+        <label for="homeZIPcode">HOME ZIP CODE</label><br>
+        <input type="int" id="homeZIPcode" name="homeZIPcode"><br><br>
+        <label for="budget">BUDGET (USD)</label><br>
+        <input type="currency" id="budget" name="budget"><br><br><br>
         <fieldset>
             <legend>Do you ski or snowboard?</legend>
             
             <input type="checkbox" name="sportType" value="ski"><label for="ski">ski
+            <input type="checkbox" name="sportType" value="snowboard"><label for="snowboard">snowboard
             </label><br>
            
         </fieldset> <br>
